@@ -1,0 +1,11 @@
+@import '../../assets/scss/variables';
+
+.app-layout {
+    &__header {
+        font-size: 1.8rem;
+        color: $color-grey-light;
+        background-color: $color-grey-dark;
+        padding: 1rem 2.4rem;
+    }
+    
+}

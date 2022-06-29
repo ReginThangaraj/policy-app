@@ -1,0 +1,11 @@
+@import './_variables.scss';
+
+@mixin policy-list-grid {
+    display: grid;
+    grid-template-columns: 24% 33% 14% 15% 10%;
+    column-gap: 1%;
+}
+
+@mixin box-shadow {
+    box-shadow: 0 1rem 1.6rem rgba(26, 26, 36, 0.05);
+}

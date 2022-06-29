@@ -1,0 +1,25 @@
+@import '../../../../assets/scss/_mixins.scss';
+
+.policy-list-item {
+    @include policy-list-grid;
+    border-bottom: 1px solid $color-grey-light;
+    padding: 1.4rem 0;
+
+    div:first-child {
+        padding-left: 1rem;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+
+        svg {
+            width: 1.6rem;
+            height: 1.6rem;
+        }
+
+        button:not(:first-child) {
+            margin-left: 1rem;
+        }
+    }
+}

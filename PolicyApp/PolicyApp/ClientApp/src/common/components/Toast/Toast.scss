@@ -1,0 +1,40 @@
+@import '../../../assets/scss/variables.scss';
+
+.toast {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+    background-color: $color-white;
+    color: $color-grey-dark;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 60rem;
+
+    &__content {
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+
+        svg {
+            width: 2.4rem;
+            height: 2.4rem;
+        }
+    }
+
+    &__message {
+        margin-left: 1rem;
+    }
+
+    &__close {
+        padding: 1.4rem;
+
+        svg {
+            width: 1.6rem;
+            height: 1.6rem;
+        }
+    }
+}

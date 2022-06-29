@@ -1,0 +1,43 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.confirmation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    background-color: $color-white;
+    color: $color-grey-dark;
+    min-width: 55rem;
+    @include box-shadow;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.4rem 2rem;
+        border-bottom: 1px solid $color-grey-medium-3;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        padding: 3rem;
+        font-size: 1.4rem;
+    }
+
+    &__footer {
+        padding: 2rem;
+        border-top: 1px solid $color-grey-medium-3;
+
+        button:not(:first-child) {
+            margin-left: 1.6rem;
+        }
+    }
+}

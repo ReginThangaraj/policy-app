@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d58a9050-292c-4db2-b9f3-895798a7719e": {
+      "ProjectGuid": "d58a9050-292c-4db2-b9f3-895798a7719e",
+      "DisplayName": "PolicyApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6e868820-71ab-4aad-a256-1514339d2933": {
+      "ProjectGuid": "6e868820-71ab-4aad-a256-1514339d2933",
+      "DisplayName": "PolicyApp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

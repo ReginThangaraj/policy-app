@@ -1,0 +1,67 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.policy-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    background-color: $color-white;
+    color: $color-grey-dark;
+    min-width: 50rem;
+    @include box-shadow;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.4rem 2rem;
+        border-bottom: 1px solid $color-grey-medium-3;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.5rem 2rem 3rem 2rem;
+        font-size: 1.4rem;
+    }
+
+    &__footer {
+        padding: 2rem;
+        border-top: 1px solid $color-grey-medium-3;
+
+        button:not(:first-child) {
+            margin-left: 1.6rem;
+        }
+    }
+
+    &__field-wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__field-wrap:not(:last-child) {
+        margin-bottom: 1.8rem;
+    }
+
+    &__field {
+        padding: .8rem;
+        border: 1px solid $color-grey-medium;
+    }
+
+    &__error {
+        color: $color-error;
+        font-size: 1.2rem;
+        position: absolute;
+        top: 5.5rem;
+    }
+}

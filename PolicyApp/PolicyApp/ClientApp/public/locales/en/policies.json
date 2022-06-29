@@ -1,0 +1,45 @@
+{
+  "heading": "Policies",
+  "addPolicy": "Add policy",
+  "columns": {
+    "policyNumber": "Policy number",
+    "name": "Name",
+    "age": "Age",
+    "gender": "Gender",
+    "actions": "Actions"
+  },
+
+  "addSuccess": "Policy added successfully.",
+  "updateSuccess": "Policy updated successfully.",
+  "deleteSuccess": "Policy deleted successfully.",
+  "saveFailed": "An error occurred while saving the policy.",
+  "deleteFailed": "An error occurred while deleting the policy.",
+
+  "form": {
+    "addHeading": "Add policy",
+    "editHeading": "Edit policy",
+    "policyNumber": "Policy number",
+    "name": "Name",
+    "age": "Age",
+    "gender": "Gender",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "save": "Save",
+    "cancel": "Cancel",
+    "errors": {
+      "required": "Required",
+      "numberRequired": "Must be a number",
+      "policyNumberMin": "Must be greater than 0",
+      "policyNumberMax": "Must be less than 1000000",
+      "nameMax": "Must be 50 characters or less",
+      "ageMin": "Must be greater than 0",
+      "ageMax": "Must be less than 100"
+    }
+  },
+
+  "deleteConfirmation": {
+    "heading": "Confirm Deletion",
+    "message": "Are you sure you want to delete this policy?",
+    "confirmButtonLabel": "Delete"
+  }
+}

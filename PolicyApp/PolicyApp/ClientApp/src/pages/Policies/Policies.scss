@@ -1,0 +1,17 @@
+@import '../../assets/scss/variables';
+
+.policies {
+    padding: 2.4rem;
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        color: $color-grey-dark;
+        margin-bottom: 1rem;
+    }
+}

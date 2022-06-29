@@ -1,0 +1,35 @@
+@import './variables';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.button {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background-color: $color-white;
+    border: 1px solid $color-grey-dark;
+
+    &--primary {
+        background-color: $color-grey-dark;
+        color: $color-grey-light;
+    }
+
+    &--delete {
+        background-color: $color-error;
+        color: $color-white;
+    }
+}

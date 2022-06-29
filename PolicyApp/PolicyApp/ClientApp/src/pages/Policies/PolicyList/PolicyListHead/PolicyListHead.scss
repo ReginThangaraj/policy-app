@@ -1,0 +1,12 @@
+@import '../../../../assets/scss/_mixins.scss';
+
+.policy-list-head {
+    @include policy-list-grid;
+    background-color: $color-grey-light;
+    padding: 1.2rem 0;
+    font-weight: bold;
+
+    div:first-child {
+        padding-left: 1rem;
+    }
+}
